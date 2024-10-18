@@ -61,7 +61,7 @@ nav {
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #1d4ed8;
+    background-color: #1679AB;
     transition: all 0.3s ease;
 }
 
@@ -73,14 +73,14 @@ nav {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #1d4ed8;
+    background-color: #074173;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #1e40af;
+    background-color: #1679AB;
 }
 
 /* Hero*/
@@ -131,26 +131,26 @@ nav {
 .icons {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Alinea a la izquierda */
-    gap: 1.5rem; /* Espacio entre los íconos */
-    padding: 1rem 0; /* Espacio arriba y abajo */
-    margin-top: 1rem; /* Añadir espacio con el texto superior */
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
 }
 
 .icons a {
     color: #fff;
-    text-decoration: none; /* Eliminar subrayado */
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .icons i {
-    font-size: 36px; /* Aumentar tamaño de los íconos */
+    font-size: 36px;
     transition: all 0.5s ease;
 }
 
 .icons i:hover {
-    color: #4d4d4d; /* Cambiar el color al pasar el cursor */
-    transform: translateY(-5px); /* Efecto flotante */
+    color: #1679AB;
+    transform: translateY(-5px);
 }
 
 /* mis proyectos */
@@ -273,22 +273,6 @@ nav {
 .form-group input:focus, 
 .form-group textarea:focus {
     background-color: #3b3b3b;
-}
-
-button.btn {
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #1d4ed8;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 1rem;
-}
-
-button.btn:hover {
-    background-color: #1e40af;
 }
 
 /* Responsivo */
